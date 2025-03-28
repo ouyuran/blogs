@@ -26,11 +26,21 @@ Packages is only compatible with one version of other packages.
 ### Always latest (where we are, it's not a solution)
 Problem: need maintainance window (strong consistency), or retry (enventually consistency)
 
-### Unified versioning
+### Release aspect
+
+Release aspect is a combination of components with specified version that pass center quality gating.
+
+Question: when to do the test?
+
+gate | releasing | released
+
+👆
+currently here
+                  👆 should be here
+
+#### Unified versioning
 
 Pulumi: always use same version for Python packages and plugins
-
-### Release aspect
 
 #### Meta packages - with entity
 
